@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Project-1 </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles_index.css">
+    <!--***** BOOTSTRAP *****-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="js/scripts_index.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="align-self-center">TDA</h1>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col pr-0">
+            <input class="form-control form-control-sm" type="number" id="ca" placeholder="Numero 1">
+        </div>
+        <div class="col pl-1 pr-1">
+            <input class="form-control form-control-sm" type="number" id="cb" placeholder="Numero 2">
+        </div>
+        <button href="#" id="calcular" class="col-1 btn-sm btn btn-dark">Push</button>
+        <div class="col pl-4 pr-1">
+            <input class="form-control form-control-sm" type="text" id="cc" disabled="disabled" value="">
+        </div>
+        <button href="#" id="almacenar" class="col-2 mr-3 btn btn-dark btn-sm">Almacenar</button>
+    </div>
+    <div class="row mt-2 container-padre-tabla">
+        <div class="col-md-6">
+            <table class="table table-sm table-dark table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>RESULTADO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col pr-1">
+            <input class="form-control form-control-sm" type="number" min="1" id="posBorrar" placeholder="Posicion">
+        </div>
+        <button class="col-1 btn btn-dark btn-sm" id="borrar">Borrar</button>
+        <div class="col pl-1 pr-1">
+            <input class="form-control form-control-sm" type="number" min="1" id="posReem" placeholder="Posicion">
+        </div>
+        <div class="col pl-4 pr-0">
+            <input class="form-control form-control-sm form-control form-control-sm-sm" type="number" id="valReem" placeholder="Valor">
+        </div>
+        <button class="col-2 btn btn-dark btn-sm mr-3" id="reemplazar">Reemplazar</button>
+    </div>
+</div>
+</body>
+</html>
